@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800|Pacifico|Paytone+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
-/* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_extend.scss */
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,20 +13,16 @@
   justify-content: start;
 }
 
-/* Normal desktop :1200px. */
-/* Normal desktop :992px. */
-/* Tablet desktop :768px. */
-/* small mobile :320px. */
-/* Large Mobile :480px. */
-/* 1. Theme default css */
-/* line 4, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/theme-default.scss */
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-style: normal;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
-/* line 13, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -4783,6 +4779,36 @@ h6 {
 .full_image.single-blog {
   position: relative;
 }
+div#wrapper {
+  float: left;
+  width: 100%;
+  margin-left: -200px
+  }
+  
+  div#content {
+  margin-left: 200px
+  }
+.content {
+  position: relative; 
+  color: white;
+  top: 100px;
+  margin: 0.5%;
+  } 
+  
+  .content p {
+  padding: 0 10px;
+  line-height: 1.8;
+  }
+  
+  .content p ul li {
+  padding-right: 10px;
+  line-height: 1.6;
+  }
+  
+  .content p h3 {
+  padding: 5px 20px;
+  margin: 0;
+  }
 
 /* line 160, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
 .full_image.single-blog .single-blog-content {
@@ -5387,6 +5413,13 @@ h6 {
   justify-content: center;
   align-self: center;
   padding-left: 20px;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  
 }
 
 /* line 796, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
@@ -6406,60 +6439,6 @@ h6 {
 }
 /*SignUpEnd*/
 
-
-
-.navTop1 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 100px;
-  padding: 0 50px;
-  background-color:rgb(46, 212, 234);
-  z-index: 1;
-}
-
-
-.navTopLef {
-  margin-left: -2%;
-}
-
-
-.navTopLef a {
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 107px;
-  height: 30px;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  border: 2px solid transparent;
-  line-height: 25px;
-  border-radius: 15px;
-  display: inline-block;
-  text-align: center;
-  transition: all .2s;
-}
-
-.navTopLef a:hover,
-.navTopLef a:focus {
-  background-color: rgba(44, 45, 47, 0);
-  border-color: rgb(234, 46, 73);
-
-}
-
-.navTopCenter {
-  margin-left:25%;
-}
-
-.navTopCenterInPage {
-  margin-left: 20%;
-}
-
-.navTopCenterWL {
-  margin-left: 46%;
-}
 
 
 .login-btn {
