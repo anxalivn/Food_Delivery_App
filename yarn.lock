@@ -2,3 +2,45 @@
 # yarn lockfile v1
 
 
+bootstrap@^5.0.0-beta3:
+  version "5.0.0-beta3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.0.0-beta3.tgz#c959f61fbd03667a1b158f763856994859d7a465"
+  integrity sha512-0urccjfIOzhrb9qJysN8XW/DRw6rg3zH7qLeKIp4Zyl8+Ens4JWB0NC0cB5AhnSFPd2tftRggjwCMxablo6Tpg==
+
+emitter-b@*:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/emitter-b/-/emitter-b-1.0.0.tgz#8a839994a024b01b1aaa4bc509b72eef45e311f7"
+  integrity sha1-ioOZlKAksBsaqkvFCbcu70XjEfc=
+  dependencies:
+    proto ">=1.0.17"
+
+gem@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/gem/-/gem-2.4.3.tgz#8d95dc15a47151cb77f83727449f5ecacc8e3165"
+  integrity sha1-jZXcFaRxUct3+DcnRJ9eysyOMWU=
+  dependencies:
+    emitter-b "*"
+    hashmap "https://github.com/Tixit/hashmap/archive/c666bbe32a8d23bbafc96c5d8f18e385b1b00f27.tar.gz"
+    observe "1"
+    proto ">=1.0.17"
+    trimArguments "https://github.com/fresheneesz/trimArguments/archive/c9c023c9ff1e0aec4b67370a80a92dacadcf8b11.tar.gz"
+
+"hashmap@https://github.com/Tixit/hashmap/archive/c666bbe32a8d23bbafc96c5d8f18e385b1b00f27.tar.gz":
+  version "2.0.5-minfiedBugFix"
+  resolved "https://github.com/Tixit/hashmap/archive/c666bbe32a8d23bbafc96c5d8f18e385b1b00f27.tar.gz#22ce29d63253785dcc6d5c33e22d8aec762dac0b"
+
+observe@1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/observe/-/observe-1.4.1.tgz#9839b9c5076f5a51e7b646197d4770ad2066e6fe"
+  integrity sha1-mDm5xQdvWlHntkYZfUdwrSBm5v4=
+  dependencies:
+    proto "*"
+
+proto@*, proto@>=1.0.17:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/proto/-/proto-1.0.19.tgz#4dba250b34398ae242de24153e7bf9dab2fe4385"
+  integrity sha1-TbolCzQ5iuJC3iQVPnv52rL+Q4U=
+
+"trimArguments@https://github.com/fresheneesz/trimArguments/archive/c9c023c9ff1e0aec4b67370a80a92dacadcf8b11.tar.gz":
+  version "1.0.1"
+  resolved "https://github.com/fresheneesz/trimArguments/archive/c9c023c9ff1e0aec4b67370a80a92dacadcf8b11.tar.gz#c4d002edfcf799bdc993170f1f809f79e3257386"
