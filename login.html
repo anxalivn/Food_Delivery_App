@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>Login Form</title>
+
+		<link rel="stylesheet" type = "text/css" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="userInforScript.js"></script>
+	</head>
+	<body>
+		<div class="loginbar">
+			<h1>Login</h1>
+			<form id="account" method="post" name="loginForm">
+			<p>Username</p>
+			<input type="text" id="username" name="username" placeholder="Username">
+			<p>Password</p>
+			<input type="password" id="password" name="password" placeholder="Password">
+			<input type="button" value="Login" id="submit" onclick="validate()"/>
+			<a href="signup.html">Sign up</a><br>
+			
+			</form>
+		</div>
+
+	</body>
+</html>
